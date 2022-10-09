@@ -1,0 +1,38 @@
+.container{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.main{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+
+}
+.theme div{
+height: 50px;
+width: 50px;
+float: left;
+cursor: pointer;
+margin: 18px;
+border: 1px solid black;
+}
+.dark{
+background-color:rgb(134, 134, 134);
+}
+.lemon{
+background-color: rgb(239, 248, 112);
+}
+.green{
+background-color: rgb(130, 197, 130);
+}
+.lightred{
+background-color: rgb(221, 95, 95);
+}
+.main p{
+font-size: 30px;
+margin: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
